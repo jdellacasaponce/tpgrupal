@@ -15,7 +15,7 @@ Post condiciones: devuelve True si la pila esta vacia o False en caso contrario
 */
 bool IsEmpty(Stack* pila);
 /*
-isFull
+IsFull
 Especificaciones: Corrobora que la pila se encuentre completa
 Pre condiciones: que la pila este inicializada 
 Post condiciones: devuelve True si la pila esta llena o False en caso contrario
