@@ -1,8 +1,6 @@
 #ifndef STACKMODULE_H
 #define STACKMODULE_H
 
-#include <stdbool.h>
-
 typedef int StackItem;
 typedef struct Stack Stack;
 
@@ -13,14 +11,14 @@ Especificaciones: Corrobora que la pila se encuentra vacia
 Pre condiciones: Que la pila este inicializada
 Post condiciones: devuelve True si la pila esta vacia o False en caso contrario
 */
-bool IsEmpty(Stack* pila);
+int IsEmpty(Stack pila);
 /*
 IsFull
 Especificaciones: Corrobora que la pila se encuentre completa
 Pre condiciones: que la pila este inicializada 
 Post condiciones: devuelve True si la pila esta llena o False en caso contrario
 */
-bool IsFull(Stack* pila);
+int IsFull(Stack pila);
 /*
 Push
 Especificaciones: Pone un valor en la cima de la pila
