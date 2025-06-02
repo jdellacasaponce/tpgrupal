@@ -10,9 +10,6 @@ struct Stack {
 Stack *InicializarPila() {
 
   Stack *stack = (Stack *)malloc(sizeof(Stack));
-  for (int i = 0; i < MAX_ELEMENTOS; i++) {
-    stack->arr[i] = 0;
-  }
   stack->cantElem = 0;
   return stack;
 }

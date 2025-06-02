@@ -7,14 +7,14 @@ void testStack() {
 
   // Test Push
   int i;
-  for (i = 1; i <= 99999; ++i) {
+  for (i = 1; i <= MAX_ELEMENTOS; ++i) {
     Push(tope, i);
     assert(Top(tope) == i); // Último elemento debe ser 20
   }
 
   // Test Pop
   int valor;
-  for (i = 99999; i >= 1; --i) {
+  for (i = MAX_ELEMENTOS; i >= 1; --i) {
     Pop(tope, &valor);
     assert(valor == i);
   }

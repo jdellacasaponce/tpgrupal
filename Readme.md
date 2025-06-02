@@ -6,7 +6,7 @@ Tiempo de 1000 ejecuciones de los test:
 
 | Implementación         | Tiempo Promedio(s) | Tiempo Total(s)|
 |------------------------|------------|-------------------|
-| Contigua Estática      | 4.4110 | 44.11 |
+$16.084760.8465 |
 | Enlazada Dinámica      | .0180 | .18 |
 
 (*los tiempos pueden variar según el entorno.*)
