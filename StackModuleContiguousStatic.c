@@ -36,7 +36,6 @@ void Push(Stack *stack, int valor) {
     printf("La pila está llena\n");
   } else {
     stack->arr[stack->cantElem] = valor;
-    // printf("%d\n", stack->arr[stack->cantElem]);
     stack->cantElem++;
   }
 }
@@ -48,7 +47,6 @@ int Pop(Stack *stack, int *valor) {
     stack->cantElem--; // mover el puntero hacia el último valor válido
     *valor = stack->arr[stack->cantElem]; // leerlo
     stack->arr[stack->cantElem] = 0;
-    // printf("POP: %d\n", *valor);
   }
 
   return 0;

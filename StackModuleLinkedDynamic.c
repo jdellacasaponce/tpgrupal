@@ -49,7 +49,6 @@ void Push(Stack *stack, int valor) {
     nodo->anterior = stack->raizPila;
     stack->raizPila = nodo;
     stack->cantElem++;
-    // printf("%d\n", nodo->info);
   }
 }
 // Creo un puntero al nuevo nodo.

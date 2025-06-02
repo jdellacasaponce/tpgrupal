@@ -1,7 +1,6 @@
 #ifndef STACKMODULE_H
 #define STACKMODULE_H
 #define MAX_ELEMENTOS 100000
-
 typedef int StackItem;
 typedef struct Stack Stack;
 
