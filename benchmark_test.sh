@@ -1,5 +1,5 @@
 #!/bin/bash
-N=1000
+N=10
 TOTAL=0
 echo "Ejecutando pruebas de tiempo de ejecucion..."
 for ((i = 0; i < "$N"; ++i)); do
